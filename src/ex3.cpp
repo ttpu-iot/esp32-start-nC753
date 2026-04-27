@@ -12,7 +12,6 @@ void setup() {
 }
 
 void loop() {
-    digitalWrite(RED_LED_PIN, HIGH);
     lightvalue = analogRead(SENSOR);
     Serial.print("Light value = ");
     Serial.print(lightvalue);
